@@ -106,7 +106,7 @@ if len(sys.argv) != 4:
     print 'Usage is ./scapy-deauth.py interface bssid client'
     print 'Example - ./scapy-deauth.py mon0 00:11:22:33:44:55 55:44:33:22:11:00'
     sys.exit(1)
- 
+# V30 핸드폰 : 10:F1:F2:85:B8:16
 from scapy.all import *
  
 conf.iface = sys.argv[1] # The interface that you want to send packets out of, needs to be set to monitor mode
